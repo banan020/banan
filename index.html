@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="반안중 방송부">
+    <meta property="og:image" content="bangsongbu.png">
+    <title>반안중 방송부</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+     />
+     <!-- Google Fonts -->
+     <link
+       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+       rel="stylesheet"
+     />
+     <!-- Stylesheet -->
+     <link rel="stylesheet" href="style.css" />
+        <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+        body {
+            background-color:#1b1d25;
+        }
+        .pro {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            margin-bottom: 4px;
+        }
+        .profile {
+            width: 58px;
+            height: 58px;
+            border-radius: 100%;
+            border: 1px solid black;
+            background-image: url('banana.gif');
+            background-position: center;
+            background-size: cover;
+        }
+        .headcopy {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 260px;
+        }
+        .main {
+            color : #FFFFFF;
+            font-size: 27px;
+            size : 20px;
+            font-weight: 80000;
+            margin: 0%;
+        }
+        .sub {
+            color : #B1B1B5;
+            font-size: 14px;
+            font-weight: 4000;
+            size : 14px;
+            margin-top: 10px;
+        }
+        .minis {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 1px;
+            gap: 5px;
+            margin-bottom: 28px;
+        }
+        .minis > a {
+            width: 102px;
+            height: 48px;
+            border-radius: 32px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            white-space:pre-wrap;
+        }
+        .notion {
+            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #F7F6F3;
+            color:#84827D;   box-shadow: 0px 0px 19px 0px rgb(4, 184, 255);
+        }
+        .brunch {
+            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #02C3BD;
+            color:#FFFFFF;  box-shadow: 0px 0px 19px 0px rgb(4, 184, 255);
+        }
+        .facebook {
+            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #4167B3;
+            color:#FFFFFF;  box-shadow: 0px 0px 19px 0px rgb(4, 184, 255);
+        }
+        .minis > a:hover {
+            font-size: 15px
+        }
+        .sub > a:hover {
+            font-size: 20px
+        }
+        .wrap {
+            width: 3px;
+            margin: 3px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .bigs {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 9px;
+            gap: 10px;
+        }
+        .bigs > a {
+            width: 123px;
+            background-color: white;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-decoration: none;
+            padding: 20px 16px 16px 16px;
+            border-radius: 8px;
+        }
+
+        .bigs1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 9px;
+            gap: 10px;
+        }
+
+        .bigs1 > a {
+            background-color: #ffffff;
+            background-image: url(BANANSALL.png);
+            width: 123px;
+            margin-bottom: 4px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-decoration: none;
+            padding: 16px 180px 180px 16px;
+            border-radius: 30px;
+        }
+
+        .bigs2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 9px;
+            gap: 10px;
+        }
+
+        .bigs2 > a {
+            background-color: #ffffff;
+            background-image: url();
+            width: 123px;
+            margin-bottom: 4px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-decoration: none;
+            padding: 10px 180px 10px 10px;
+            border-radius: 30px;
+        }
+
+        .name {
+            font-size: 22px;
+            font-weight: 700;
+            color: #222222;
+            margin-bottom: 45px;
+        }
+
+        .desc {
+            font-size: 12px;
+            font-weight: 500;
+            color: #000000;
+            margin-bottom: 24px;
+        }
+
+        .btn {
+            font-size: 15px;
+            font-weight: 700;
+            color: #ffffff;
+            background-color: #12d198;
+            border-radius: 4px;
+            padding: 5px 4px 5px 4px;
+            box-shadow: 1px 3px 19px 0px rgb(4, 184, 255);
+        }
+
+        .text {
+            font-size: 15px;
+            font-weight: 700;
+            color: #ffffff;
+            background-color: #ffa601;
+            border-radius: 4px;
+            padding: 5px 2px 5px 2px;
+            box-shadow: 1px 3px 19px 0px rgb(255, 0, 0);
+        }
+    </style>
+
+</head>
+<body>
+
+        <script>
+            (function() {
+            var w = window;
+            if (w.ChannelIO) {
+                return (window.console.error || window.console.log || function(){})('ChannelIO script included twice.');
+            }
+            var ch = function() {
+                ch.c(arguments);
+            };
+            ch.q = [];
+            ch.c = function(args) {
+                ch.q.push(args);
+            };
+            w.ChannelIO = ch;
+            function l() {
+                if (w.ChannelIOInitialized) {
+                return;
+                }
+                w.ChannelIOInitialized = true;
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = 'https://cdn.channel.io/plugin/ch-plugin-web.js';
+                s.charset = 'UTF-8';
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+            if (document.readyState === 'complete') {
+                l();
+            } else if (window.attachEvent) {
+                window.attachEvent('onload', l);
+            } else {
+                window.addEventListener('DOMContentLoaded', l, false);
+                window.addEventListener('load', l, false);
+            }
+            })();
+            ChannelIO('boot', {
+            "pluginKey": "65c63705-ca22-47bf-a41b-ef686805efb1"
+            });
+        </script>
+    <div class="wrap">
+        <div class="pro">
+            <div class="headcopy">
+                <h1 class="main">반안중학교<br>방송부</h1>
+                <p class="sub">누구나 부러워하는 방송부입니다.</p>
+            </div>
+            <div class="profile"></div>
+        </div>
+        <div class="minis">
+            <a class="notion" target="_blank" href="https://drive.google.com/file/d/1wqdVsiYgJMMshMPndgbCCe-Oz7yIKSmw/view?usp=sharing">위치             <span style="color:#ffffff">></span></a>
+            <a class="brunch" target="_blank" href="https://school.busanedu.net/banan-m">학교홈페이지   ></a>
+            <a class="facebook" target="_blank" href="https://www.youtube.com/channel/UCXGJtJ9leH8ImvLW-T74SeQ">유튜브        ></a>
+    </div>
+        <div style="color:#FFFFFF;width: 320px;font-size: 14px;margin-bottom: 8px;">자료</div>
+        <div class="bigs">
+            <a target="_blank" href="">
+                <div class="name">방송부 지원서<br>양식</div>
+                <div class="desc">방송부가 되고 싶다면<br>아래의 파일을 다운 받고<br>양식을 작성해주세요.</div>
+                <div class="btn">다운로드</div>
+            </a>
+            <a target="_blank" href="banana.gif">
+                <div class="name">준비중<br></div>
+                <div class="desc">ㅋㅋㅋㅋ<br>ㅋㅋㅋ<br>ㅋㅋㅋㅋㅋ</div>
+                <div class="btn">다운로드</div>
+            </a>
+            
+        </div>
+        
+      <div>
+        <div style="color:#FFFFFF;width: 310px;font-size: 14px;margin-bottom: 8px;">홍보</div>
+            <div class="bigs1">
+            <a target="_blank">
+            </a>
+        </div>
+<div>
+     <div style="color:#FFFFFF;width: 310px;font-size: 14px;margin-bottom: 8px;"></div>
+     <div class="bigs2">
+     <a target="_blank">
+        <div class="wrapper">
+            <div class="container">
+              <i class="fas fa-star"></i>
+              <span class="text">서버 상태</span>
+            </div>
+          </div>
+          <script src="script.js"></script>
+        </a>
+ </div>    
+    </body>
+</html>
